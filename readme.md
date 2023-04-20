@@ -1,3 +1,2 @@
-Meu primeiro repositorio online 
-nvo2
-nv3
+#Agora vai !!
+Criar um repositorio online, trazer para o local, fazer alterações e mandar para o pull request.

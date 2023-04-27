@@ -1,11 +1,36 @@
-.h1,p {
-    text-align: center;
+div:hover {
+    border: 15px solid purple;
 }
 
-li:hover {
-    background-color: green;
+.nt-one {
+    background-color: aqua;
 }
 
-li:active {
-    font-family: 'Courier New', Courier, monospace;
+.nt-two {
+    background-color: red;
+}
+
+.nt-tree {
+    background-color: blue;
+}
+
+.nt-four {
+    background-color: darkorange;
+}
+
+.nt-five {
+    background-color: lawngreen;
+}
+
+div ,.nt-one, .nt-two, .nt-four, .nt-five {
+    font-size: 30px;
+    weight: 100px;
+}
+
+.nt-one, .nt-tree, .nt-five {
+    font-style: italic;
+}
+
+.nt-tree {
+    font-size: 100px;
 }

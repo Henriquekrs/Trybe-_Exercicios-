@@ -1,36 +1,62 @@
-div:hover {
-    border: 15px solid purple;
+ol {
+    background-color: yellow;
 }
 
-.nt-one {
-    background-color: aqua;
+ol li:nth-child(even) {
+    color: green;
+} 
+
+ol li:nth-child(odd) {
+    text-transform: uppercase;
 }
 
-.nt-two {
-    background-color: red;
+h1, h3 {
+    color: red;
 }
 
-.nt-tree {
-    background-color: blue;
+h1 em {
+    font-size: 40px;
+    border: 1px solid black;
 }
 
-.nt-four {
-    background-color: darkorange;
+li {
+    font-size: 20px;
 }
 
-.nt-five {
-    background-color: lawngreen;
+li em {
+    font-weight: 300;
 }
 
-div ,.nt-one, .nt-two, .nt-four, .nt-five {
-    font-size: 30px;
-    weight: 100px;
+.blue {
+    color: blue;
 }
 
-.nt-one, .nt-tree, .nt-five {
-    font-style: italic;
+.pink {
+    color: rgb(213, 7, 155);
 }
 
-.nt-tree {
-    font-size: 100px;
+li a:hover {
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+}
+
+li a[href*="stackoverflow"]:hover {
+    color: orange;
+}
+
+li a[href*="w3schools"]:hover {
+    color: green;
+}
+
+li a[href*="mdn"]:hover {
+    color: black;
+}
+
+li a[href*="devdocs"]:hover {
+    color: yellow;
+}
+
+li a[href*="trybe"]:hover {
+    color: rgb(11, 221, 11);
 }

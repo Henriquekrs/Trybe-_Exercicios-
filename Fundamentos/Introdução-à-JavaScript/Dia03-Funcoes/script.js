@@ -7,13 +7,17 @@ let lado1 = 9;
 let lado2 = 7;
 let lado3 = 8;
 
-function checkIntegerPositive(lado1,lado2,lado3) {
-    if (lado1 > 0 && lado2 > 0 && lado3){
-        if (lado1 % 2 !== 0 && lado2 % 2 !== 0 && lado3 % 2 !==0)
-        return true
+function checkIntegerPositive(lado1, lado2, lado3) {
+    if (lado1 > 0 && lado2 > 0 && lado3 > 0) {
+      if (Number.isInteger(lado1) && Number.isInteger(lado2) && Number.isInteger(lado3)) {
+        return true;
+      }
     }
-    return true 
-} console.log(checkIntegerPositive(9,7,8))
+    return false;
+  }
+  
+  console.log(checkIntegerPositive(9, 7, 8)); 
+  
 // 1. Crie uma função `checkIntegerPositive` que verifica se os valores dos lados são inteiros e positivos.
 // - a condição é que todos os valores dos lados devem ser maiores que zero;
 // - a função deve receber 3 parâmetros (l1, l2, l3);
